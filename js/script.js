@@ -14,7 +14,14 @@ const personalMovieDB = {
     private: false
 }
 
+
+
+
 personalMovieDB.movies[prompt('один из просмотреных фильмов?', '')] = prompt('насколько вы оцените его?', '');
+
 personalMovieDB.movies[prompt('один из просмотреных фильмов?', '')] = prompt('насколько вы оцените его?', '');
+
+
+
 
 console.log(personalMovieDB);
